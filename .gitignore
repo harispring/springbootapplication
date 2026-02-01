@@ -1,0 +1,57 @@
+# === Java ===
+*.class
+*.log
+*.ctxt
+
+# === Build output ===
+/target/
+/build/
+/out/
+
+# === Maven ===
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle ===
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IDEs ===
+## IntelliJ IDEA
+.idea/
+*.iml
+
+## Eclipse
+.project
+.classpath
+.settings/
+
+## VS Code
+.vscode/
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Spring Boot ===
+spring.log
+hs_err_pid*
+
+# === Environment variables / secrets ===
+.env
+*.env
+
+# === Logs ===
+logs/
+*.log
+
+# === Test & coverage ===
+/coverage/
+*.exec
