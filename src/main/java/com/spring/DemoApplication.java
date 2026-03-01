@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
+	// this comment added from git bash 1
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
